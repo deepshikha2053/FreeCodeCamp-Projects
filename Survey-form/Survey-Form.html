@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+      <h1 id="title">Student Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p> 
+      
+<form method="post" id="survey-form">
+  <fieldset>
+    <label id="name-label">Name
+    <input type="text" id="name" name="name" placeholder="Enter your name" required/></label>
+    <label id="email-label">Email
+    <input type="email" id="email" name="email" placeholder="Enter your email"required/></label>
+    <label id="number-label">Number (optional)
+    <input type="number" id="number" name="number" min=18 max=23 placeholder="Age"/></label>
+    <label for="branch">Branch
+    <select id="dropdown" name="branch">
+      <option id="">Choose your branch</option>
+      <option id="1">CSE</option>
+      <option id="2">EE</option>
+      <option id="3">ECE</option>
+      </select></label>
+  </fieldset>
+  <fieldset>
+    <legend>Are you happy?</legend>
+<label for="yes"><input type="radio" value="yes" name="choice" class="inline" checked/>Yes</label>
+<label for="no">
+<input type="radio" value="no" name="choice" class="inline"/>No</label>
+<label for="idk"><input type="radio" value="idk" name="choice" class="inline"/>Idk</label>
+    </fieldset>
+    <fieldset>
+      <legend>What's your reason?</legend>
+    <select id="why" name="why">
+      <option value="">select an option</option>
+      <option value="1">Friends</option>
+      <option value="2">Family</option>
+      <option value="3">Idk</option>
+      <option value="4">Other</option>
+      </select>
+      </fieldset>
+      <fieldset>
+        <legend>How can we help you?</legend>
+        <label><input type="checkbox" value="workshop" class="inline">
+Conduct Workshops</label>
+<label><input type="checkbox" value="Counselling" class="inline">
+Counselling</label>
+<label><input type="checkbox" value="Yoga" class="inline">
+Yoga</label>
+<label><input type="checkbox" value="Music" class="inline">
+Music therapy</label>
+        </fieldset>
+        <fieldset>
+          <legend>Any more suggestions?</legend>
+          <textarea placeholder="Enter your suggestions here.."></textarea>
+          </fieldset>
+          <input type="submit" id="submit">
+  </form>
+      </body>
+  </html>
