@@ -29,5 +29,3 @@ You can then open the project directories in your preferred code editor to view 
 Contributions and feedback are welcome! If you find any issues or have suggestions for improvement, please open an issue or submit a pull request.
 
 ---
-
-Feel free to customize the content according to your preferences. Update the README.md file in the root directory of your repository with this content. You can do this by creating a new file named "README.md" in the root directory or by editing the existing README.md file.
